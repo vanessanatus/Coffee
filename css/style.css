@@ -96,6 +96,48 @@ body {
     margin-bottom: 1rem;
 }
 
+.Origin-image {
+    background-attachment: fixed;
+    background-image: url('../img/img6.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Origin-image__link a {
+    background-color: #372b1db0;
+    border: 2px solid #372b1db0;
+    color: #cecac6;
+    display: inline-block;
+    font-size: 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.Origin-image__link a:hover {
+    transform: scale(1.2);
+}
+
+.Origin-text {
+    background-color: #927c64;
+    color: #cac3b8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+}
+
+.Origin-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
 .footer {
     height: 250px;
     background-color: #546a75;
